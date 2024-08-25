@@ -1,0 +1,162 @@
+*{
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 5%;
+}
+
+.main {
+    display: flex;
+    margin: button 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+    text-align: start;
+}
+
+.text-area::placeholder{color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.text-area__advertencia {
+    color:#495057;
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+
+}
+.mensaje {
+    background-color: white;
+    border: none;
+    border-radius: 32px;
+    color: #0A3871;
+    margin-left: 94px;
+    margin-top: 20px;
+    padding-left:px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.mensaje__placeholder-content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: none;
+
+}
+
+.mensaje__placeholder-img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mensaje__placeholder__texto1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mensaje__placeholder__texto2 {
+    font-size: 28px;
+    margin: 0;
+}
+
+#boton-copiar {
+    display: none;
+    margin-top: 80px;
+    padding: ;
+    border: 1px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+#boton-copiar:hover {
+    background-color: white;
+}
+
+.btn-copiar {
+    display: none;
+}
+
+#mensaje:focus + .mensaje__placeholder-content{
+    display: none;
+}
+
+#mensaje:focus + .mensaje__placeholder-content + #boton-copiar{
+    display: block;
+}
+
+
+.botones {
+    display: flex;
+    gap: 24px;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    text-decoration: none;
+    
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    text-decoration: none;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 101px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
